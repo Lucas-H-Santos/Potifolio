@@ -15,12 +15,7 @@ body {
    
 }
 
-#NomeTopo{
 
-    
-    border: 2px solid yellow;
-    
-}
 
 .NomeH1{
 
@@ -34,6 +29,8 @@ body {
     left: 15px;
     bottom:50px;
     margin-bottom: 8px;
+    color:floralwhite;
+    
 
     
 
