@@ -7,6 +7,9 @@ body {
     
     border:1px solid red ;
     background: linear-gradient(to bottom,rgb(0, 1, 51),black);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
    
 }
 
@@ -20,12 +23,15 @@ body {
 
     
     display: inline-block;
-    margin-left: 2%;
-    margin-top:3%;
+    
     font-family:Arial, Helvetica, sans-serif;
     padding: 10px;
     border: 1px solid red;
     position:relative;
+    top:5px;
+    left: 15px;
+    bottom:50px;
+    margin-bottom: 8px;
 
     
 
@@ -33,15 +39,22 @@ body {
 .teste{
 
     border: 1px solid green;
+    position:absolute;
+    margin-bottom: 13px;
+    overflow:hidden;
 
 }
 .FotoPerfil{
 
     border-radius: 50%;
     position: relative;
-    margin-left:86%;
-    margin-top:-10%;
+    top:5px;
+    right: 10px;
+    
+    margin-left:750px;
     border: 1px solid red;
+    float: right;
+    margin-bottom: 10px;
 
 
 }
@@ -58,8 +71,10 @@ body {
     background-attachment: scroll ;
     height: 250px;
     overflow-y: scroll;
+    border:2px solid white;
 
 }
+
 
 .resumo{
 
