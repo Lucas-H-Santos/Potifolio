@@ -1,11 +1,13 @@
+
+
+
+
 body {
 
     
-    border: ;
+    border:1px solid red ;
     background: linear-gradient(to right,Darkblue,black);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-attachment: scroll;
+   
 }
 
 #NomeTopo{
@@ -30,6 +32,38 @@ body {
     position: relative;
     margin-left:86%;
     margin-top:-7%;
+
+}
+
+.ConteudoInicial{
+
+    border: ;
+    margin: 10px;
+    padding:10px;
+    background: rgba(245, 245, 245, 0.362) ;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+.resumo{
+
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:26px;
+
+
+}
+
+.ConteudoPrincipal{
+
+    border: 1px solid red;
+    display: inline-flex;
+    font-family:cursive;
+    
+
 
 }
 
