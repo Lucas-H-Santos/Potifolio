@@ -6,16 +6,19 @@ body {
 
     
     border:1px solid red ;
-    background: linear-gradient(to left, rgb(39, 0, 0),rgb(0, 0, 44));
+    background: linear-gradient(to right, rgb(5, 0, 0),rgb(12, 12, 12));
     background-repeat: no-repeat;
-    background-size:cover;
-    height: 100%;
+    background-attachment:scroll ;
+    height: 605px;
+    
+    
    
 }
 
 #NomeTopo{
 
     
+    border: 2px solid yellow;
     
 }
 
@@ -23,9 +26,8 @@ body {
 
     
     display: inline-block;
-    
     font-family:Arial, Helvetica, sans-serif;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid red;
     position:relative;
     top:5px;
@@ -41,36 +43,35 @@ body {
     border: 1px solid green;
     position:absolute;
     margin-bottom: 13px;
-    overflow:hidden;
     width: 97%;
     margin-left:1%;
     margin-right: 1% ;
+    
     
 
 }
 .FotoPerfil{
 
     border-radius: 50%;
-    position: relative;
-    top:25px;
-    left: 7%;
-    
-    margin-left:750px;
+    position:absolute;
+    top: 3%;
+    left: 90%;
     border: 1px solid red;
-    
-    margin-bottom: 10px;
 
 
-}
-
-
-.float{
-
-    position:relative;
-    top: 170px;
 
 }
 
+
+.medidaConteudo{
+
+    height: 400px;
+    border: 1px solid royalblue;
+    position: relative;
+    top:18%;
+
+
+}
 .ConteudoInicial{
 
     
@@ -109,7 +110,6 @@ body {
     border: 1px solid red;
     display: inline-flex;
     font-family:cursive;
-    position: relative;
     background-attachment: scroll;
     
 }
