@@ -6,7 +6,7 @@ body {
 
     
     border:1px solid red ;
-    background: linear-gradient(to bottom,rgb(0, 1, 51),black);
+    background: linear-gradient(to left, rgb(39, 0, 0),rgb(0, 0, 44));
     background-repeat: no-repeat;
     background-size:cover;
     height: 100%;
@@ -42,20 +42,32 @@ body {
     position:absolute;
     margin-bottom: 13px;
     overflow:hidden;
+    width: 97%;
+    margin-left:1%;
+    margin-right: 1% ;
+    
 
 }
 .FotoPerfil{
 
     border-radius: 50%;
     position: relative;
-    top:5px;
-    right: 10px;
+    top:25px;
+    left: 7%;
     
     margin-left:750px;
     border: 1px solid red;
-    float: right;
+    
     margin-bottom: 10px;
 
+
+}
+
+
+.float{
+
+    position:relative;
+    top: 170px;
 
 }
 
