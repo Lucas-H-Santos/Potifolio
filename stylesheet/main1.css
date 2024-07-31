@@ -1,10 +1,11 @@
 body {
 
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom:2%;
-    border: 1px solid red;
-    position: relative;
+    
+    border: ;
+    background: linear-gradient(to right,Darkblue,black);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: scroll;
 }
 
 #NomeTopo{
@@ -17,7 +18,7 @@ body {
 
     border: 1px 
     display: inline-block;
-    margin:0 0% 0 15%;
+    margin:0 0% 0 1%;
     font-family:Arial, Helvetica, sans-serif;
     padding: 10px;
 
