@@ -6,7 +6,7 @@ body {
 
     
     border:1px solid red ;
-    background: linear-gradient(to right,Darkblue,black);
+    background: linear-gradient(to bottom,rgb(0, 1, 51),black);
    
 }
 
