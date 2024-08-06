@@ -6,7 +6,7 @@ body {
 
     
     border:1px solid red ;
-    background: linear-gradient(to right, rgb(5, 0, 0),rgb(12, 12, 12));
+    background: linear-gradient(to right, rgb(5, 0, 0),rgb(226, 221, 221));
     background-repeat: no-repeat;
     background-attachment:scroll ;
     height: 760px;
